@@ -1,0 +1,17 @@
+// color schemes \\
+$background-color: lightblue;
+$border-color: blue;
+$text-color: lightpink;
+$footer-color: darkgray;
+
+// media queries \\
+
+$breakpoint-mobile: 675px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1400px;
+.body {
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+}
+
