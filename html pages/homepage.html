@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css and css index pages/style.css.map">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
     <title>Home</title>
 </head>
 <body>
     <div>
         <nav>
             <div class="flexbox--container">
-                <button>
+                <button class="button--size">
                     <h1 class="text-color">
                         Home
                     </h1>
@@ -20,11 +20,45 @@
         </nav>
     </div>
 <main>
-    <p>
-        <h2>
-            content
-        </h2>  
-    </p>
+    <div class="flex--container__items">
+        <p class="description">
+           
+            <h2 class="container-text">
+                content
+            </h2>  
+            <h3>
+                price: 20$
+            </h3>
+        </p>
+    </div>
+    <div class="flex--container__items">
+        <p>
+            <h2>
+                content
+            </h2>  
+        </p>
+    </div>
+    <div class="flex--container__items">
+        <p>
+            <h2>
+                content
+            </h2>  
+        </p>
+    </div>
+    <div class="flex--container__items">
+        <p>
+            <h2>
+                content
+            </h2>  
+        </p>
+    </div>
+    <div class="flex--container__items">
+        <p>
+            <h2>
+                content
+            </h2>  
+        </p>
+    </div>
 </main>
     <section>
         <div class="flexbox--container">
@@ -40,10 +74,19 @@
             </h3>
         </div>
     </section>
-    <footer>
-        <div class="flexbox--container">
+    <footer class="footer--container">
+        <div class="flexbox--container_form">
             <h4>
-            
+            <form>
+                <p>Contact me here:</p>
+                <label for="email">Email:</label><br>
+                <input type="text" name="email" id="email"><br>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname">
+                <input type="submit" value="Submit">
+            </form>
             </h4>
         </div>
     </footer>

@@ -1,0 +1,62 @@
+
+@import '../css/_variables.scss';
+
+
+
+@media all and (min-width: 375px), (max-width: $breakpoint-mobile) 
+{
+   
+    .flexbox--container
+    {   
+        display: flex;
+        justify-content: start;
+    }
+    .button--size
+    {  
+        padding: 10px;
+        background-color: black;
+        border-color: $button-color;
+        border-radius: 20px 20px 20px 20px;
+    }
+    .text-color
+    {   
+        font-size: 20px;
+        border-radius: 20px 10px 20px 10px;
+        background-color: $button-color;
+        color: $text-color;
+        padding: 10px;
+    }
+    .footer--container
+    {
+        font-weight: bold;
+        color: $text-color;
+        font-size: 25px;
+        font-family: $font-family;
+        padding: 25px;
+    }
+    .flex--container__items
+    {   
+        flex-direction: row;
+        justify-content: space-between;
+        display: flex;
+    }
+}
+
+
+@media all and (min-width: 375px), (max-width: $breakpoint-tablet) 
+{
+   
+.flexbox--container
+        {
+    color: rgb(219, 61, 61);
+        }
+}
+
+@media all and (min-width: 375px), (max-width: $breakpoint-desktop) 
+{
+   
+    .flexbox--container 
+    {
+        color: red;
+    }
+} 

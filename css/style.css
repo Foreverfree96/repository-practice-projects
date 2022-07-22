@@ -1,0 +1,62 @@
+.body {
+  padding: 0;
+  margin: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media all and (min-width: 375px), (max-width: 675px) {
+  .flexbox--container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .button--size {
+    padding: 10px;
+    background-color: black;
+    border-color: pink;
+    border-radius: 20px 20px 20px 20px;
+  }
+  .text-color {
+    font-size: 20px;
+    border-radius: 20px 10px 20px 10px;
+    background-color: pink;
+    color: rgba(0, 0, 0, 0.637);
+    padding: 10px;
+  }
+  .footer--container {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.637);
+    font-size: 25px;
+    font-family: monospace;
+    padding: 25px;
+  }
+  .flex--container__items {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media all and (min-width: 375px), (max-width: 768px) {
+  .flexbox--container {
+    color: #db3d3d;
+  }
+}
+
+@media all and (min-width: 375px), (max-width: 1400px) {
+  .flexbox--container {
+    color: red;
+  }
+}
+/*# sourceMappingURL=style.css.map */
