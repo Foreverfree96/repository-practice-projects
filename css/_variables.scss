@@ -3,7 +3,12 @@ $background-color: rgb(64, 142, 168);
 $border-color: blue;
 $text-color: rgba(0, 0, 0, 0.637);
 $footer-color: darkgray;
+$background: linear-gradient(#cc2b5e, #753a88);
 $button-color: pink;
+$drop-down-color: lightpink;
+$social-color: linear-gradient(#cc2b5e, #753a88);
+$youtube-color-background: #880808;
+$background-menu: black;
 
 // Fonts \\
 $font-family: monospace;
@@ -12,9 +17,7 @@ $font-family: monospace;
 $breakpoint-mobile: 675px;
 $breakpoint-tablet: 768px;
 $breakpoint-desktop: 1400px;
-.body {
-    padding: 0;
-    margin: 0;
-    object-fit: cover;
-}
+// resets \\
+
+
 
